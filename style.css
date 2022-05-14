@@ -63,7 +63,7 @@ body{
     background-color: hsl(51, 100%, 49%);
 }
 .menu-container > li > ul{
-    padding: .3em 100%;
+    padding: .3em 7em;
 }
 .grid-container{
     display: grid;
