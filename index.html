@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+  <div class="grid-container">
+    <header class="grid-container__header">
+      <nav class="grid-container__header-nav">
+        <img src="images/logo.svg" class="logo">
+        <img src="images/icon-hamburger.svg" class="menu"> 
+        <li>
+          <ul><a href="#about" class="grid-container__header-nav-a">About</a></ul>
+          <ul><a href="#services" class="grid-container__header-nav-a">Services</a></ul>
+          <ul><a href="#projects" class="grid-container__header-nav-a">Projects</a></ul>
+          <ul><a href="#cont" class="grid-container__header-nav-a-contact grid-container__header-nav-a">Contact</a></ul>
+        </li>
+      </nav>
+      <div class="menu-total" hidden=" ">
+        <div class="arrow">
+        </div>        
+        <div class="menu-container">
+          <li class="menu-container-list">
+            <ul><a href="#about">About</a></ul>
+            <ul><a href="#services">Services</a></ul>
+            <ul><a href="#projects">Projects</a></ul>
+            <ul><a href="#cont" id="contact-responsive">Contact</a></ul>
+          </li>
+        </div>
+      </div>
+      <div class="grid-container__header-body">
+        <h1 class="grid-container__header-body-title">
+          WE ARE CREATIVES
+        </h1>
+        <img src="images/icon-arrow-down.svg" class="arrow-down">
+      </div>
+    </header>
+    <main class="grid-container__main1">
+      <div class="grid-container__main1-text1">
+        <h2>
+          Transform your brand
+        </h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <div>
+          <a href="#">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <img class="grid-container__main1-img1" src="images/desktop/image-transform.jpg"  id="about">
+
+      <div class="grid-container__main1-text2">
+        <h2>
+          Stand out to the right audience
+        </h2>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <div>
+          <a href="#">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <img class="grid-container__main1-img2" src="images/desktop/image-stand-out.jpg">
+
+      <div class="grid-container__main2-text1" id="services">
+        <h3 class="grid-container__main2-text1-title">
+          Graphic design
+        </h3>
+        <p class="grid-container__main2-text1-main">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="grid-container__main2-text2">
+        <h3 class="grid-container__main2-text2-title">
+          Photography
+        </h3>
+        <p class="grid-container__main2-text2-main">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </div>
+    </main>
+    <main class="grid-container__main3" id="projects">
+      <div class="grid-container__main3-users">
+        <p class="grid-container__main3-users-title">
+          CLIENT TESTIMONIALS
+        </p>
+        <div class="grid-container__main3-user1">
+          <img src="images/image-emily.jpg" class="grid-container__main3-users-pfp">
+          <p class="grid-container__main3-users-tes">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <p class="grid-container__main3-users-name">
+            Emily R.
+          </p>
+          <p class="grid-container__main3-users-role">
+            Marketing Director
+          </p>
+        </div>
+
+        <div class="grid-container__main3-user1">
+          <img src="images/image-thomas.jpg" class="grid-container__main3-users-pfp">
+          <p class="grid-container__main3-users-tes">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <p class="grid-container__main3-users-name">
+            Thomas S.
+          </p>
+          <p class="grid-container__main3-users-role">
+            Chief Operating Officer
+          </p>
+        </div>
+
+        <div class="grid-container__main3-user1">
+          <img src="images/image-jennie.jpg" class="grid-container__main3-users-pfp">
+          <p class="grid-container__main3-users-tes">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <p class="grid-container__main3-users-name">
+            Jennie F.
+          </p>
+          <p class="grid-container__main3-users-role">
+            Business Owner
+          </p>
+        </div>
+      </div>
+      <div class="grid-container__main3-images">
+        <img src="images/desktop/image-gallery-milkbottles.jpg">
+        <img src="images/desktop/image-gallery-orange.jpg">
+        <img src="images/desktop/image-gallery-cone.jpg">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg">
+      </div>
+    </main>
+    <footer class="grid-container__footer" id="cont">
+      <img src="images/logo-copy.svg" class="grid-container__footer-logo">
+      <div>
+        <a href="#about" class="grid-container__footer-a">About</a></p>
+        <a href="#services" class="grid-container__footer-a">Services</a></p>
+        <a href="#projects" class="grid-container__footer-a">Projects</a></p>
+      </div>
+      <div class="grid-container-footer-icons">
+        <img src="images/icon-facebook.svg" class="icon">
+        <img src="images/icon-instagram.svg" class="icon">
+        <img src="images/icon-twitter.svg" class="icon">
+        <img src="images/icon-pinterest.svg" class="icon">
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor,</a>
+        Coded by <a href="https://github.com/JooFeBF" target="_blank">Joseph Martínez.</a>
+      </div>
+    </footer>
+  </div>
+  <script src="menu.js"></script>
+</body>
+</html>
